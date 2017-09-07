@@ -11,12 +11,8 @@ else:
     print 'please enter a valid name.'
 spy_age = raw_input('what is your age ? ')
 
-if spy_age > 12 or spy_age < 50 :
-    print 'Nice meeting you sir...'
-else:
-    print'You are not eligible to be a spy.'
 
-#if spy_age > 12 and spy_age < 50 :
- #   spy_rating = raw_input('what is your spy rating ? ')
-#else:
- #   print"sorry you are not eligible to be a spy"
+if spy_age > 12 and spy_age < 50 :
+    spy_rating = raw_input('what is your spy rating ? ')
+else:
+    print"sorry you are not eligible to be a spy"
